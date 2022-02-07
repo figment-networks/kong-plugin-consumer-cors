@@ -1,4 +1,4 @@
-KONG_VERSION ?= 2.3.3
+KONG_VERSION ?= 2.7.1
 
 all: lint test
 
