@@ -4,7 +4,7 @@ set -euo pipefail
 ${TRACE:+set -x}
 
 VERSION="${VERSION:-latest}"
-HANDLER_FILE=./kong/plugins/cors/handler.lua
+HANDLER_FILE=./kong/plugins/consumer-cors/handler.lua
 ROCKSPEC=$(find . -path ./servroot -prune -false -o -name '*.rockspec')
 LUAROCKS_API_KEY="${LUAROCKS_API_KEY}"
 
